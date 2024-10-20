@@ -1,0 +1,124 @@
+/* General styling */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure the about content fills the remaining space */
+.app-main {
+  flex: 1;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 80vh;
+}
+
+.about-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Green header */
+.jumbotron {
+  background-color: #28a745;
+  color: white;
+  padding: 2rem 1rem;
+  margin-bottom: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #343a40;
+  padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item .nav-link {
+  color: white;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.nav-item .nav-link:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+/* Main content container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content-wrapper {
+  background-color: #343a40;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Updated Footer styling */
+.app-footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.app-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+.github-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.app-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  opacity: 0.7;
+}
+
+.tech-pill {
+  background-color: #28a745;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.about-underline {
+  border-bottom: 2px solid #28a745;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
